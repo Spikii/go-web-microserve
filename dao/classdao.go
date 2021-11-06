@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"beego/models"
-	"beego/utils"
+	"github.com/Spikii/go-web-microserve/models"
+	"github.com/Spikii/go-web-microserve/utils"
 )
 
 func GetClasses() ([]*models.Class, error) {
